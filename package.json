@@ -1,0 +1,11 @@
+{
+  "name": "oss2026-a1",
+  "version": "1.0.0",
+  "description": "A1: find, verify, and use an npm package",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "license": "MIT"
+}
