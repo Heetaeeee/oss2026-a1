@@ -27,4 +27,8 @@
 
 // ↓ 여기부터 작성
 
-console.log("아직 비어 있습니다. 위 주석을 읽고 패키지를 하나 import해서 호출해보세요.");
+import { catNames, randomCatName } from "cat-names";
+
+console.log("랜덤 고양이 이름:", randomCatName());
+console.log("전체 이름 개수:", catNames.length);
+console.log("처음 5개:", catNames.slice(0, 5));
